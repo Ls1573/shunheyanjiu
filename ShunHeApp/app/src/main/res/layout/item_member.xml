@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/y13"
+        android:paddingTop="@dimen/y13">
+
+        <TextView
+            android:id="@+id/item_mem_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="会员"
+            android:textColor="@color/font_black"
+            android:textSize="@dimen/tv_14_sp" />
+
+
+        <TextView
+            android:id="@+id/item_integral_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="积分"
+            android:textColor="@color/font_black"
+            android:textSize="@dimen/tv_14_sp" />
+
+
+        <TextView
+            android:id="@+id/item_birth_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="生日"
+            android:textColor="@color/font_black"
+            android:textSize="@dimen/tv_14_sp" />
+    </LinearLayout>
+
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="2px"-->
+        <!--android:background="@color/gray_deep" />-->
+
+</LinearLayout>

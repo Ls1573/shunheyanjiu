@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#999999</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="pink">#FEECD8</color>
+    <color name="blue">#1BC6B3</color>
+    <color name="orange">#ff580f</color>
+    <color name="font_gray">#B4B4B4</color>
+    <color name="translucence">#55000000</color>
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="font_black">#505050</color>
+    <color name="gray_light">#F0F0F0</color>
+    <color name="gray_deep">#F0F0F0</color>
+    <color name="translucence_white">#AAFFFFFF</color>
+    <color name="unused_button">#969696</color>
+    <color name="pink_light">#FFF8E6</color>
+    <color name="translucence_white_light">#22FFFFFF</color>
+    <color name="font_red">#FF5253</color>
+    <color name="grey_58TR">#AA585858</color>
+
+    <!--我的账户-->
+    <color name="green_light">#1BC6B3</color>
+    <color name="green_dark">#19B9A7</color>
+    <color name="orange_light">#F0851B</color>
+    <color name="bg_account">#F1F1F1</color>
+
+</resources>

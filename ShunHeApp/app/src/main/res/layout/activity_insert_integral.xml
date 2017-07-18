@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_deep"
+    android:orientation="vertical">
+
+    <include layout="@layout/header_blue" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/y15"
+        android:layout_marginLeft="@dimen/x10"
+        android:layout_marginTop="@dimen/y15"
+        android:gravity="center_vertical"
+        android:text="个人信息"
+        android:textColor="@color/orange" />
+
+    <LinearLayout
+        android:id="@+id/phone_num_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/y15"
+        android:paddingTop="@dimen/y15">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x10"
+            android:drawablePadding="@dimen/x10"
+            android:gravity="center_vertical"
+            android:text="手机号码"
+            android:textColor="@color/font_black" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="@dimen/y15"
+            android:layout_marginLeft="@dimen/x10"
+            android:background="@color/gray_deep" />
+
+        <TextView
+            android:id="@+id/phone_num_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_weight="1"
+            android:text=""
+            android:textColor="@color/font_gray" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_marginRight="@dimen/x10"
+            android:drawablePadding="@dimen/x10"
+            android:gravity="center_vertical"
+            android:textColor="@color/font_gray"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_line"
+        android:background="@color/gray_deep" />
+
+    <LinearLayout
+        android:id="@+id/integral_now_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/y15"
+        android:paddingTop="@dimen/y15">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x10"
+            android:drawablePadding="@dimen/x10"
+            android:gravity="center_vertical"
+            android:text="可用积分"
+            android:textColor="@color/font_black" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="@dimen/y15"
+            android:layout_marginLeft="@dimen/x10"
+            android:background="@color/gray_deep" />
+
+        <TextView
+            android:id="@+id/integral_now_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_weight="1"
+            android:text=""
+            android:textColor="@color/font_gray" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_marginRight="@dimen/x10"
+            android:drawablePadding="@dimen/x10"
+            android:gravity="center_vertical"
+            android:textColor="@color/font_gray"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_line"
+        android:background="@color/gray_deep" />
+
+    <LinearLayout
+        android:id="@+id/birth_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/y15"
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_marginTop="@dimen/y15"
+            android:drawablePadding="@dimen/x10"
+            android:gravity="center_vertical"
+            android:text="会员生日"
+            android:textColor="@color/font_black" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="@dimen/y15"
+            android:layout_marginLeft="@dimen/x10"
+            android:background="@color/gray_deep" />
+
+        <TextView
+            android:id="@+id/birth_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text=""
+            android:textColor="@color/font_gray" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_marginRight="@dimen/x10"
+            android:drawablePadding="@dimen/x10"
+            android:gravity="center_vertical"
+            android:textColor="@color/font_gray"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_line"
+        android:background="@color/gray_deep" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/y15"
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_marginTop="@dimen/y15"
+            android:text="积分方式"
+            android:textColor="@color/font_black" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="@dimen/y15"
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_marginTop="@dimen/y10"
+            android:background="@color/gray_deep" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="@dimen/y8"
+            android:layout_marginTop="@dimen/y8"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/add_cb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x10"
+                android:background="@drawable/check_box_recharge"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:paddingBottom="@dimen/y3"
+                android:paddingLeft="@dimen/x5"
+                android:paddingRight="@dimen/x5"
+                android:paddingTop="@dimen/y3"
+                android:text="增加积分"
+                android:textColor="@color/text" />
+
+            <CheckBox
+                android:id="@+id/reduce_cb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x10"
+                android:background="@drawable/check_box_recharge"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingBottom="@dimen/y3"
+                android:paddingLeft="@dimen/x5"
+                android:paddingRight="@dimen/x5"
+                android:paddingTop="@dimen/y3"
+                android:text="减少积分"
+                android:textColor="@color/text"
+                android:visibility="visible" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_line"
+        android:background="@color/gray_deep" />
+
+    <LinearLayout
+        android:id="@+id/integral_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/y15"
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_marginTop="@dimen/y15"
+            android:drawablePadding="@dimen/x10"
+            android:gravity="center_vertical"
+            android:text="积分变动"
+            android:textColor="@color/font_black" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="@dimen/y15"
+            android:layout_marginLeft="@dimen/x10"
+            android:background="@color/gray_deep" />
+
+        <EditText
+            android:id="@+id/integral_et"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:hint="请输入积分"
+            android:inputType="number"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:textColor="@color/font_black"
+            android:textColorHint="@color/font_gray"
+            android:textSize="@dimen/tv_14_sp" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/login_confirm_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/x30"
+        android:layout_marginRight="@dimen/x30"
+        android:layout_marginTop="@dimen/y25"
+        android:background="@drawable/shape_round_orange"
+        android:gravity="center"
+        android:paddingBottom="@dimen/y10"
+        android:paddingTop="@dimen/y10"
+        android:text="确认提交"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+</LinearLayout>
